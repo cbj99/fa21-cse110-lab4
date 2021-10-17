@@ -31,25 +31,25 @@
 
 ### 13.
 <ol type="A">
-    <li> '32'
-    <li> 1
-    <li> 3
-    <li> '3null'
-    <li> 4
-    <li> 0
-    <li> '3undefined'
-    <li> NaN
+    <li> '32'. Here + stands for concatenation.
+    <li> 1. Here '3' converts to 3 and does the subtraction: 3 - 2 = 1.
+    <li> 3. Here null converts to 0 and does the addition: 3 + 0 = 3.
+    <li> '3null'. Here null converts to 'null' and does the concatenation: '3' + 'null' = '3null'.
+    <li> 4. Here true converts to 1 and does the addition: 1 + 3 = 4.
+    <li> 0. Here null converts to 0 and false converts to 0 does the addition: 0 + 0 = 0.
+    <li> '3undefined'. Here undefined converts to 'undefined' and does the concatenation: '3' + 'undefined' = '3undefined'.
+    <li> NaN. Here '3' - undefined, the answer is still undefined, which becomes NaN.
     </ol>
 
 &nbsp;
 ### 14.
 <ol type="A">
-    <li> true
-    <li> false
-    <li> true
-    <li> false
-    <li> false
-    <li> true
+    <li> true. String '2' becomes a number 2.
+    <li> false. Strings are compared letter-by-letter, since 2 is greater than 1 in "lexicographical” order, '2' should be greater than '12'.
+    <li> true. '2' convert to 2, thus it equals to 2.
+    <li> false. Since they have different data types, we directly return false.
+    <li> false. true convert to 1, thus it does not equal to 2.
+    <li> true. Boolean(2) has boolean data type and value: true, thus they are strictly equal.
     </ol>
 
 &nbsp;
